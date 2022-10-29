@@ -12,10 +12,10 @@
   <title>Document</title>
 </head>
 
-<body>
+<body class="bg-lightCream mx-2">
   <!-- Navigation Menu -->
 
-  <nav class="relative container mt-2 mx-auto px-5 bg-white">
+  <nav class="relative container mt-2 mx-auto  bg-white">
     <div class="container flex p-3 items-center justify-between ">
 
       <!-- logo -->
@@ -37,7 +37,7 @@
     </div>
 
     <!-- Exposed Nav Items; hidden at small screens -->
-    <div class="hidden container flex bg-csGreen items-center justify-between p-3 text-white md:flex">
+    <div class="hidden container flex bg-csGreen items-center justify-between p-3 text-white rounded-lg md:flex">
       <a href="#" class="hover:text-yellow-300">Home</a><a href="#" class="hover:text-yellow-300">About Us</a><a
         href="#" class="hover:text-yellow-300">Services</a><a href="#" class="hover:text-yellow-300">Stock</a><a
         href="#" class="hover:text-yellow-300">Hire</a><a href="#" class="hover:text-yellow-300">Gallery</a><a href="#"
@@ -46,6 +46,39 @@
         class="hover:text-yellow-300">Contact Us</a>
     </div>
   </nav>
+  <!-- Hero -->
+  <figure class="relative container mt-2 mx-auto">
+    <img class="object-cover w-auto rounded-lg" src="img/tent-orange.jpg" alt="">
+    <a href="#" class="absolute text-white text-4xl top-1/2 right-1/2
+    -translate-y-1/2
+    translate-x-1/2
+    hover:text-csGreen
+    ">About Us</a>
+  </figure>
+
+  <!-- Who-We-Are -->
+  <section class="mt-8">
+    <div class="container flex flex-col md:flex-row md:items-center items-center gap-5 mx-auto">
+      <!-- left item -->
+      <div class="text-base text-csBlack">
+        <h1 class="font-bold text-csGreen text-xl">Our Story</h1>
+        <h3 class="underline">Who Are We?</h3>
+        <p>
+AgroMech Company is an online-based supplier of tractors and equipment in the agricultural industry. We are dedicated to providing first-class service to all of our customers, both home and abroad, using experienced haulers to ensure the highest quality service. AgroMech is registered with the Corporate Affairs Commission of the Federal Republic of Nigeria, under the Corporate and Allied Matters Act of 1990.
+AgroMech ensures that the clearing of machines, certificates and paper-works are completed to the highest standard
+        </p>
+      </div>
+<!-- right item -->
+<div class="text-base bg-white rounded-lg text-csBlack shadow-xl p-4 ">
+  <i class="fas fa-tractor text-lg text-csGreen"></i>
+  <h1 class="font-bold text-lg pb-2">Machinery Provider</h1>
+        <p>
+        We provide a platform where you can hire various machines and equipments for both long-term and short-term use
+                </p>
+</div>
+    </div>
+  </section>
+  
 
 
 </body>
